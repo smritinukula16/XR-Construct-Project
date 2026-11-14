@@ -10,6 +10,9 @@
 |---|---|
 | `models/CONSTRUCT-XR_Building.blend` | Blender file, with parts organised into collections by discipline |
 | `models/CONSTRUCT-XR_Building.fbx` | FBX export used in the Unity VR project |
+| `models/interior/INT_LobbySofa.blend` / `.fbx` | Three-seat lobby sofa |
+| `models/interior/INT_ReceptionDesk.blend` / `.fbx` | Reception counter with work top, drawer pedestal and monitor |
+| `models/interior/INT_OfficeChair.blend` / `.fbx` | Swivel office chair with five-star base and armrests |
 
 ## The model
 
@@ -29,6 +32,25 @@
 | | **Total** | **222** |
 
 Names follow the pattern `DISCIPLINE_Type_FloorNumber`, for example `ARC_Wall_G01_02` (architectural wall, ground floor, number 02).
+
+## Interior props
+
+Low-poly interior models for furnishing the lobby and offices. Each prop is a single parent object with separately named parts (`INT_` prefix), real-world scale, and flat materials matching the building.
+
+| Lobby sofa | Reception desk | Office chair |
+|---|---|---|
+| ![Sofa](images/INT_LobbySofa.jpg) | ![Reception desk](images/INT_ReceptionDesk.jpg) | ![Office chair](images/INT_OfficeChair.jpg) |
+| 2.10 × 0.88 × 0.80 m | 2.40 × 0.75 × 1.12 m | 0.66 × 0.66 × 1.15 m |
+
+## Human avatars
+
+Each user in a session appears as a hologram avatar in their role colour, with a name and role tag above the head. Head and hands follow the user's headset and controllers, so you can see where teammates are standing, looking and pointing.
+
+| Collaborators joining at the entrance | Two users in the lobby |
+|---|---|
+| ![Avatars at entrance](images/avatars_entrance.jpg) | ![Avatars in lobby](images/avatars_lobby.jpg) |
+| **Measuring together** | **Name and role tag** |
+| ![Measuring together](images/avatars_measuring.jpg) | ![Avatar close-up](images/avatar_closeup.jpg) |
 
 ## In the VR app
 
